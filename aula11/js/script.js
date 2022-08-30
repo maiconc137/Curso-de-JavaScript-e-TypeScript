@@ -6,4 +6,4 @@ num2 = Number(num2);
 
 let resultado = num1 + num2;
 
-alert(resultado);
+alert(`O resultado da soma foi: ${resultado}`);
