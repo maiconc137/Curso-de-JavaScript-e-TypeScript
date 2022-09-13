@@ -26,6 +26,10 @@ body {
     border-radius: 10px ;
 }
 
+form {
+    padding-bottom: 20px;
+}
+
 form input {
     font-size: 24px;
     height: 50px;
@@ -47,7 +51,7 @@ form button {
     background: var(--primery-color);
     color: #fff;
     font-size: 18px;
-    width: 100%;
+    width: 100px;
     height: 50px;
     cursor: pointer;
     margin-top: 30px;
@@ -68,4 +72,17 @@ form button:active {
 
 .bad {
     background: rgb(240, 84, 84);
+}
+
+/* Formatando tabela com inf do IMC*/
+
+
+
+th {
+    padding: 0 90px;
+}
+
+#info {
+    font-size: 10px;
+    border-bottom: 0.5px solid black;
 }
