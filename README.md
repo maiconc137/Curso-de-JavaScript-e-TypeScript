@@ -7,5 +7,5 @@ Javascript e TypeScript - front-end e back-end (Full Stack) - Node, Express, noS
 
 ### Executando os exercícios:
 <a href="https://maiconc137.github.io/Curso-de-JavaScript-e-TypeScript/exercicios/aula26/">Calculo IMC</a><br>
-<a href="https://maiconc137.github.io/Curso-de-JavaScript-e-TypeScript/exercicios/aula30/">Data e hora atual</a>
+<a href="https://maiconc137.github.io/Curso-de-JavaScript-e-TypeScript/exercicios/aula30/">Data e hora atual</a><br>
 <a href="https://maiconc137.github.io/Curso-de-JavaScript-e-TypeScript/exercicios/aula35/">Exercício com For</a>
