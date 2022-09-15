@@ -7,4 +7,4 @@ Javascript e TypeScript - front-end e back-end (Full Stack) - Node, Express, noS
 
 ### Executando os exercícios:
 
-<a href="https://maiconc137.github.io/Curso-de-JavaScript-e-TypeScript/z/">Navegando pelo curso e exercícios</a>
+<a href="https://maiconc137.github.io/Curso-de-JavaScript-e-TypeScript/z">Navegando pelo curso e exercícios</a>
