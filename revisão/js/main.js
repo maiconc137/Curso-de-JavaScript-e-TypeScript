@@ -237,13 +237,27 @@
 
 // 3 Do...While 
 
-let i = 0;
+// let i = 0;
 
-do {
-    console.log('Digitando', i);
-    i++;
-} while (i < 10)
+// do {
+//     console.log('Digitando', i);
+//     i++;
+// } while (i < 10)
 
 // 4 For...in
 
+// const pessoa = {
+//     nome: 'Maicon',
+//     idade: 26
+// };
+
+// for (let chave in pessoa) {
+//     console.log(chave);
+// };
+
 // 5 For...of
+let cores = ['vermelho', 'azul', 'verde'];
+
+for(let cor of cores) {
+    console.log(cor)
+};
