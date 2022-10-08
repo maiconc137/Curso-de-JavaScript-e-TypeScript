@@ -63,16 +63,19 @@
 // console.log(corSite);
 
 // realiza uma terefa e não devolve nada
-function dizerNome() {
-    console.log('Maicon');
-}
-dizerNome();
+// function dizerNome() {
+//     console.log('Maicon');
+// }
+// dizerNome();
 
-// realiza uma tarefa e retorna algo
-function multiplicaPorDois(valor) {
-    return valor * 2;
-}
+// // realiza uma tarefa e retorna algo
+// function multiplicaPorDois(valor) {
+//     return valor * 2;
+// }
 
-let resultado = multiplicaPorDois(5)
+// let resultado = multiplicaPorDois(5)
 
-console.log(resultado);
+// console.log(resultado);
+
+// Tipo de operadores (artiméticos, atribuição, comparação, lógicos e bitwise)
+
