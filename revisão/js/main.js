@@ -180,33 +180,70 @@
 // Se estiver entre 12h até 18h : Boa noite
 // Caso contrário  Boa noite
 
-let hora = 20;
-let saudacao;
+// let hora = 20;
+// let saudacao;
 
-if (hora >= 6 && hora <= 12) {
-    saudacao = 'Bom dia'
-} else if (hora > 12 && hora < 18) {
-    saudacao = 'Boa tarde'
-} else {
-    saudacao = 'Boa noite'
-}
+// if (hora >= 6 && hora <= 12) {
+//     saudacao = 'Bom dia'
+// } else if (hora > 12 && hora < 18) {
+//     saudacao = 'Boa tarde'
+// } else {
+//     saudacao = 'Boa noite'
+// }
 
-console.log(saudacao)
-// Swith...Case
+// console.log(saudacao)
+// // Swith...Case
 
-switch (saudacao) {
-    case 'Bom dia':
-    console.log('Bom dia pra você também');
-    break;
+// switch (saudacao) {
+//     case 'Bom dia':
+//     console.log('Bom dia pra você também');
+//     break;
 
-    case 'Boa tarde':
-    console.log('Bom tarde pra você também');
-    break;
+//     case 'Boa tarde':
+//     console.log('Bom tarde pra você também');
+//     break;
 
-    case 'Boa noite':
-    console.log('Bom noite pra você também');
-    break;
+//     case 'Boa noite':
+//     console.log('Bom noite pra você também');
+//     break;
 
-    default:
-        console.log('Ta bom então');
-}
+//     default:
+//         console.log('Ta bom então');
+// }
+
+// Laço For/Loop For
+
+// 1 For
+
+// for(let i = 0; i < 5; i++) {
+//     if(i % 2 == 0) {
+//         console.log(i,'Par');
+//     } else {
+//         console.log(i, 'ímpar');
+//     }
+// }
+
+// 2 While
+
+// let i = 5;
+// while (i < 5) {
+//     if(i % 2 == 0) {
+//         console.log(i,'Par');
+//     } else {
+//         console.log(i, 'ímpar');
+//     }
+//     i++
+// }
+
+// 3 Do...While 
+
+let i = 0;
+
+do {
+    console.log('Digitando', i);
+    i++;
+} while (i < 10)
+
+// 4 For...in
+
+// 5 For...of
