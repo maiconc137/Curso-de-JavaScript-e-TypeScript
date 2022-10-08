@@ -53,11 +53,26 @@
 // ** Como criar funções  **
 // verbo + subtantivo
 
-let corSite = 'Cor atual é Azul';
-function resetaCor(cor, tonalidade) {
-    corSite = `Nova cor ${cor} ${tonalidade} foi adicionada`;
-};
+// let corSite = 'Cor atual é Azul';
+// function resetaCor(cor, tonalidade) {
+//     corSite = `Nova cor ${cor} ${tonalidade} foi adicionada`;
+// };
 
-console.log(corSite);
-resetaCor('Vermelho', 'claro');
-console.log(corSite);
+// console.log(corSite);
+// resetaCor('Vermelho', 'claro');
+// console.log(corSite);
+
+// realiza uma terefa e não devolve nada
+function dizerNome() {
+    console.log('Maicon');
+}
+dizerNome();
+
+// realiza uma tarefa e retorna algo
+function multiplicaPorDois(valor) {
+    return valor * 2;
+}
+
+let resultado = multiplicaPorDois(5)
+
+console.log(resultado);
