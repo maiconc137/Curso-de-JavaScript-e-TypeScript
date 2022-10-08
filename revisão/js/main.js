@@ -32,13 +32,20 @@
 // varUm = 5;
 // console.log(typeof varUm);
 
-let pessoa = {
-    nome: 'Maicon',
-    idade: 26,
-    estaAprovado: true,
-    sobreNome: 'Costa'
-};
+// let pessoa = {
+//     nome: 'Maicon',
+//     idade: 26,
+//     estaAprovado: true,
+//     sobreNome: 'Costa'
+// };
 
-console.log(pessoa);
-console.log(pessoa.nome, pessoa.sobreNome);
-console.log(pessoa.idade);
+// console.log(pessoa);
+// console.log(pessoa.nome, pessoa.sobreNome);
+// console.log(pessoa.idade);
+
+let colega = ['João', 23, 'Gênio'];
+
+let nomeColega = colega.slice(0,1);
+let idadeColega = colega[1];
+
+console.log(`Meu colega ${nomeColega} tem ${idadeColega} anos.`)
