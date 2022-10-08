@@ -168,8 +168,24 @@
 
 // Truthy
 // Ex uso:
-let corPersonalizada = '';
-const corPadrao = 'azul';
-let corPerfil = corPersonalizada || corPadrao;
+// let corPersonalizada = '';
+// const corPadrao = 'azul';
+// let corPerfil = corPersonalizada || corPadrao;
 
-console.log(corPerfil);
+// console.log(corPerfil);
+
+// If..Else
+
+// se a hora estiver entre 06h até 12h : Bom dia
+// Se estiver entre 12h até 18h : Boa noite
+// Caso contrário  Boa noite
+
+let hora = 13;
+
+if (hora >= 6 && hora <= 12) {
+    console.log('Bom dia')
+} else if (hora > 12 && hora < 18) {
+    console.log('Boa tarde')
+} else {
+    console.log('Boa noite')
+}
