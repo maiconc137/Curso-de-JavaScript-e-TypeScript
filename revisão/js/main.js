@@ -157,7 +157,19 @@
 // console.log(resultado)
 
 // não (!=)
-let testNot = true;
+// let testNot = true;
 
-console.log(testNot);
-console.log(!testNot);
+// console.log(testNot);
+// console.log(!testNot);
+
+// comparação não booleanos
+// falsy
+// undefined, null, 0, false, '', NaN
+
+// Truthy
+// Ex uso:
+let corPersonalizada = '';
+const corPadrao = 'azul';
+let corPerfil = corPersonalizada || corPadrao;
+
+console.log(corPerfil);
