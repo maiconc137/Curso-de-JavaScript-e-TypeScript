@@ -255,9 +255,10 @@
 //     console.log(chave);
 // };
 
-// 5 For...of
-let cores = ['vermelho', 'azul', 'verde'];
+// // 5 For...of
+// let cores = ['vermelho', 'azul', 'verde'];
 
-for(let cor of cores) {
-    console.log(cor)
-};
+// for(let cor of cores) {
+//     console.log(cor)
+// };
+// 
