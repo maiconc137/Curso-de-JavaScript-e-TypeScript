@@ -43,9 +43,21 @@
 // console.log(pessoa.nome, pessoa.sobreNome);
 // console.log(pessoa.idade);
 
-let colega = ['João', 23, 'Gênio'];
+// let colega = ['João', 23, 'Gênio'];
 
-let nomeColega = colega.slice(0,1);
-let idadeColega = colega[1];
+// let nomeColega = colega.slice(0,1);
+// let idadeColega = colega[1];
 
-console.log(`Meu colega ${nomeColega} tem ${idadeColega} anos.`)
+// console.log(`Meu colega ${nomeColega} tem ${idadeColega} anos.`)
+
+// ** Como criar funções  **
+// verbo + subtantivo
+
+let corSite = 'Cor atual é Azul';
+function resetaCor(cor, tonalidade) {
+    corSite = `Nova cor ${cor} ${tonalidade} foi adicionada`;
+};
+
+console.log(corSite);
+resetaCor('Vermelho', 'claro');
+console.log(corSite);
