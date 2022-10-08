@@ -96,8 +96,17 @@
 
 //  atribuição
 
-let valorTecladoGamer = 300;
-// valorTecladoGamer = valorTecladoGamer + valorTecladoGamer; (ou - etc)
-console.log(valorTecladoGamer);
-valorTecladoGamer += valorTecladoGamer;
-console.log(valorTecladoGamer);
+// let valorTecladoGamer = 300;
+// // valorTecladoGamer = valorTecladoGamer + valorTecladoGamer; (ou - etc)
+// console.log(valorTecladoGamer);
+// valorTecladoGamer += valorTecladoGamer;
+// console.log(valorTecladoGamer);
+
+// operadores de igualdade
+// igualdade restrita
+// console.log(1 === 1); true
+// console.log('1' === 1); false
+
+// igualdade solta
+// console.log(1 == 1); true
+// console.log('1' == 1); true
