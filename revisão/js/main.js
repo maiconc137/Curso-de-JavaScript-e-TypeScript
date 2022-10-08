@@ -126,22 +126,38 @@
 
 // operaores lógicos
 // e (&&)
-let maiorIdade = true;
-let possuiCarteiraTrabalho = true;
-let resultado;
-let aplicarVaga = function() {
-    if (maiorIdade && possuiCarteiraTrabalho) {
-        resultado = 'Pode Aplicar';
-    } else {
-        resultado = 'Não pode aplicar';
-    }
-    return
-}
-aplicarVaga();
-console.log(resultado)
+// let maiorIdade = true;
+// let possuiCarteiraTrabalho = true;
+// let resultado;
+// let aplicarVaga = function() {
+//     if (maiorIdade && possuiCarteiraTrabalho) {
+//         resultado = 'Pode Aplicar';
+//     } else {
+//         resultado = 'Não pode aplicar';
+//     }
+//     return
+// }
+// aplicarVaga();
+// console.log(resultado)
 
 // ou (||)
+// let sabeJs = true;
+// let sabePython = false;
+// let resultado;
+// let aplicarVaga = function() {
+//     if (sabeJs || sabePython) {
+//         resultado = 'Pode Aplicar';
+//     } else {
+//         resultado = 'Não pode aplicar';
+//     }
+//     return
 
+// }
+// aplicarVaga();
+// console.log(resultado)
 
 // não (!=)
+let testNot = true;
 
+console.log(testNot);
+console.log(!testNot);
