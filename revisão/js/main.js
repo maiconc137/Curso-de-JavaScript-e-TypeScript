@@ -26,8 +26,19 @@
 // let sobreNome; // indefined
 // let corSelecionado = null // redefinir um valor
 
-let varUm = 'Sou uma String';
-console.log(typeof varUm);
+// let varUm = 'Sou uma String';
+// console.log(typeof varUm);
 
-varUm = 5;
-console.log(typeof varUm);
+// varUm = 5;
+// console.log(typeof varUm);
+
+let pessoa = {
+    nome: 'Maicon',
+    idade: 26,
+    estaAprovado: true,
+    sobreNome: 'Costa'
+};
+
+console.log(pessoa);
+console.log(pessoa.nome, pessoa.sobreNome);
+console.log(pessoa.idade);
