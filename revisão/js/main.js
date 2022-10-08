@@ -180,12 +180,33 @@
 // Se estiver entre 12h até 18h : Boa noite
 // Caso contrário  Boa noite
 
-let hora = 13;
+let hora = 20;
+let saudacao;
 
 if (hora >= 6 && hora <= 12) {
-    console.log('Bom dia')
+    saudacao = 'Bom dia'
 } else if (hora > 12 && hora < 18) {
-    console.log('Boa tarde')
+    saudacao = 'Boa tarde'
 } else {
-    console.log('Boa noite')
+    saudacao = 'Boa noite'
+}
+
+console.log(saudacao)
+// Swith...Case
+
+switch (saudacao) {
+    case 'Bom dia':
+    console.log('Bom dia pra você também');
+    break;
+
+    case 'Boa tarde':
+    console.log('Bom tarde pra você também');
+    break;
+
+    case 'Boa noite':
+    console.log('Bom noite pra você também');
+    break;
+
+    default:
+        console.log('Ta bom então');
 }
