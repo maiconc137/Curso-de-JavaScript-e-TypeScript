@@ -114,12 +114,34 @@
 // operador ternário
 // tem um cliente , 100 premium, comum
 
-let nomeCliente1 = 'Luffy';
-let pontosCliente1 = 100;
-let nivelCliente1 = pontosCliente1 >= 100 ? 'Premium' : 'Comum';
-console.log(`Seu cliente ${nomeCliente1} é ${nivelCliente1}`);
+// let nomeCliente1 = 'Luffy';
+// let pontosCliente1 = 100;
+// let nivelCliente1 = pontosCliente1 >= 100 ? 'Premium' : 'Comum';
+// console.log(`Seu cliente ${nomeCliente1} é ${nivelCliente1}`);
 
-let nomeCliente2 = 'Sandy';
-let pontosCliente2 = 98;
-let nivelCliente2 = pontosCliente2 >= 100 ? 'Premium' : 'Comum';
-console.log(`Seu cliente ${nomeCliente2} é ${nivelCliente2}`);
+// let nomeCliente2 = 'Sandy';
+// let pontosCliente2 = 98;
+// let nivelCliente2 = pontosCliente2 >= 100 ? 'Premium' : 'Comum';
+// console.log(`Seu cliente ${nomeCliente2} é ${nivelCliente2}`);
+
+// operaores lógicos
+// e (&&)
+let maiorIdade = true;
+let possuiCarteiraTrabalho = true;
+let resultado;
+let aplicarVaga = function() {
+    if (maiorIdade && possuiCarteiraTrabalho) {
+        resultado = 'Pode Aplicar';
+    } else {
+        resultado = 'Não pode aplicar';
+    }
+    return
+}
+aplicarVaga();
+console.log(resultado)
+
+// ou (||)
+
+
+// não (!=)
+
