@@ -20,8 +20,14 @@
 //  é uma boa prática usarmos preferencialmente o const, 
 // e o let para quando precisamos ficar alterando os varoles
 
-let nome = 'Maicon'; // string literal
-let idade = 26; // number literal
-let estaAprovado = true; // boolean
-let sobreNome; // indefined
-let corSelecionado = null // redefinir um valor
+// let nome = 'Maicon'; // string literal
+// let idade = 26; // number literal
+// let estaAprovado = true; // boolean
+// let sobreNome; // indefined
+// let corSelecionado = null // redefinir um valor
+
+let varUm = 'Sou uma String';
+console.log(typeof varUm);
+
+varUm = 5;
+console.log(typeof varUm);
