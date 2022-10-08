@@ -79,3 +79,17 @@
 
 // Tipo de operadores (artiméticos, atribuição, comparação, lógicos e bitwise)
 
+// Aritiméticos 
+// +, -, *, /, **
+
+let salario = 100;
+console.log(salario + salario);
+
+// ++ e -- (incremento e decremento)
+
+let idade = 26;
+console.log(idade++);
+console.log(idade);
+// o momento que faz a atribuição faz total diferença
+// se colocado antes, será feito o cálculo e após outra tarefa, se depois
+// será feita a tarefa e depois o cálculo
