@@ -110,3 +110,16 @@
 // igualdade solta
 // console.log(1 == 1); true
 // console.log('1' == 1); true
+
+// operador ternário
+// tem um cliente , 100 premium, comum
+
+let nomeCliente1 = 'Luffy';
+let pontosCliente1 = 100;
+let nivelCliente1 = pontosCliente1 >= 100 ? 'Premium' : 'Comum';
+console.log(`Seu cliente ${nomeCliente1} é ${nivelCliente1}`);
+
+let nomeCliente2 = 'Sandy';
+let pontosCliente2 = 98;
+let nivelCliente2 = pontosCliente2 >= 100 ? 'Premium' : 'Comum';
+console.log(`Seu cliente ${nomeCliente2} é ${nivelCliente2}`);
