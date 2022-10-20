@@ -50,6 +50,9 @@ function criaCalculadora() {
             this.display.value = this.display.value.slice(0, -1);
         },
 
+        raiz () {
+            
+        },
 
         cliqueBotoes() {
             document.addEventListener('click', e => {
@@ -67,7 +70,9 @@ function criaCalculadora() {
                 if (el.classList.contains('btn-eq')) {
                     this.realizaConta();
                 }
-
+                if (el.classList.contains('btn-sqr')) {
+                    this.btnParaDisplay(el.innerText);
+                }
                 this.display.focus();
             })
         },
